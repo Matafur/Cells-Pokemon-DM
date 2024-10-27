@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PokemonesDm",
+          "declaration": {
+            "name": "PokemonesDm",
+            "module": "./src/PokemonesDm.js"
+          }
+        }
+      ],
+      "entrypoint": "\\index.js",
+      "defaultEntrypoint": true
+    },
+    {
+      "kind": "javascript-module",
+      "path": "pokemones-dm.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "pokemones-dm",
+          "declaration": {
+            "name": "PokemonesDm",
+            "module": "/src/PokemonesDm.js"
+          }
+        }
+      ],
+      "entrypoint": "pokemones-dm.js",
+      "defaultEntrypoint": false
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/pokemones-dm.css.js",
+      "declarations": [
+        {
+          "kind": "js",
+          "name": "default",
+          "cssCustomProperties": []
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "src/pokemones-dm.css.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/PokemonesDm.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)\n\nThis component ...\n\nExample:\n\n```html\n  <pokemones-dm></pokemones-dm>\n```",
+          "name": "PokemonesDm",
+          "members": [
+            {
+              "kind": "field",
+              "name": "name",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "description": "Description for property",
+              "default": "\"Cells\"",
+              "attribute": "name"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "name",
+              "type": {
+                "text": "string"
+              },
+              "description": "Description for property",
+              "default": "\"Cells\"",
+              "fieldName": "name"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit-element"
+          },
+          "tagName": "pokemones-dm",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "PokemonesDm",
+          "declaration": {
+            "name": "PokemonesDm",
+            "module": "src/PokemonesDm.js"
+          }
+        }
+      ]
+    }
+  ],
+  "packageName": "@bbva-web-components/pokemones-dm"
+}

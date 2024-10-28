@@ -1,66 +1,59 @@
-# @bbva-web-components/pokemones-dm
 
-## Package info
+# Manejador de Datos Pokemon 
 
-### Package installation
+Componente dedicado al consumo de información de la api de Pokemon https://pokeapi.co/api/v2/pokemon/ el cual facilitara a traves de sus funciones el llamado a elementos como
 
-Installation using NPM
+- Lista de pokemones
+- Detalles de los pokemones
+- Cadenas de evolución
+
+
+
+## Levantar localmente
+
+Prequisitos
 
 ```bash
-npm install @bbva-web-components/pokemones-dm
+  - Tener instalado @Cells
+  - Node --Version 20.18.0
+  - Npm --Version 10.8.2
 ```
 
-### Entry points & exports
+Clonar el proyecto
 
-- (Default entry point)
-  - PokemonesDm (Class)
-- pokemones-dm.js
-  - pokemones-dm (Custom Element)
-
-
-## PokemonesDm (Class) pokemones-dm (Custom Element) 
-
-### Extends from
-
-LitElement (lit-element package)
-
-### Usage
-
-Import and extend the class:
-
-```js
-import { PokemonesDm } from '@bbva-web-components/pokemones-dm';
-
-class ExampleElement extends PokemonesDm {
-  ...
-}
+```bash
+  git clone https://github.com/Matafur/Cells-Pokemon-DM.git
 ```
 
-Use the custom element (defined globally):
+Ir a la carpeta del proyecto
 
-```js
-import '@bbva-web-components/pokemones-dm/pokemones-dm.js';
+```bash
+  cd Pokemon-DM
 ```
 
-```html
-<pokemones-dm ...>
-  ...
-</pokemones-dm>
+Instalar Dependencias
+
+```bash
+  npm i
 ```
 
-### Description
+Iniciar el servidor
 
-![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)
-
-This component ...
-
-Example:
-
-```html
-  <pokemones-dm></pokemones-dm>
+```bash
+  cells lit-component:serve
 ```
 
-### Properties
 
-- **name**: string = "Cells" (attribute: name)
-    Description for property
+## Tests
+
+El comando para ejecutar los test:
+
+```bash
+  app:test
+```
+
+
+## Autor
+
+- [@Matafur](https://github.com/Matafur)
+

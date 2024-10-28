@@ -25,6 +25,7 @@
     "@bbva-web-components/bbva-dev-demo-helper": "^1.0.0",
     "@bbva-web-components/bbva-dev-demo-theme": "^2.0.0",
     "@bbva-web-components/bbva-foundations-sass": "^1.0.0",
+    "@cells/cells-component-core": "^3.2.0",
     "@open-wc/testing": "^3.0.0"
   },
   "customElements": "custom-elements.json"
